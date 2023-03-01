@@ -2,7 +2,7 @@
 
 ![](https://assets.vercel.com/image/upload/v1662090959/front/nextjs/twitter-card.png)
 
-## Giới Thiệu {#intro}
+### Giới Thiệu {#intro}
 
 Next.js là gì? Next.js là một React framework giúp bạn tạo ra ứng dụng web (Web Application) một cách nhanh chóng và thuận tiện vì Next.js hỗ trợ rất nhiều công cụ hữu ích trong mà các bạn cần trong quá trình làm ra một Web App. Nó có thể tạo ra một ứng dụng web react full-stack với những công cụ mà nó hỗ trợ! Từ Client and Server Rendering, Dynamic Routes đến API Routes, mọi thứ dường như rất dễ dàng hơn rất nhiều so với ứng dụng React thuần.
 
