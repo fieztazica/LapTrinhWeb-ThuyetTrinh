@@ -22,6 +22,9 @@
     <Content Include="pages\abc.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="pages\test.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="README.md" />
     <Content Include="next.config.js" />
     <Content Include="pages\index.js" />

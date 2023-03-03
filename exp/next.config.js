@@ -5,7 +5,7 @@ const nextConfig = {
         return [
             {
                 source: '/api/:path*',
-                destination: 'https://localhost:64027/api/:path*',
+                destination: 'http://localhost:5000/api/:path*', // The :path parameter is used here so will not be automatically passed in the query
             },
         ]
     },
