@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BookDb">
+  <DataContextMoniker Name="/BookDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2feeef6b-161f-4fd9-b2a5-29b761d23fbf" absoluteBounds="3.5, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BookDbDataContext/Sach" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34483c77-b144-4e06-a5f5-72e347808c6e" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7a5368bc-5017-410a-ac86-8f921cb7e777" absoluteBounds="0.75, 1.125, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/BookDbDataContext/TheLoai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="352f4811-db99-488e-9cf8-f6fe49d5e07e" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.72199625651042); (3.5 : 1.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BookDbDataContext/TheLoai/TheLoai_Sach" />
+      <nodes>
+        <classShapeMoniker Id="7a5368bc-5017-410a-ac86-8f921cb7e777" />
+        <classShapeMoniker Id="2feeef6b-161f-4fd9-b2a5-29b761d23fbf" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

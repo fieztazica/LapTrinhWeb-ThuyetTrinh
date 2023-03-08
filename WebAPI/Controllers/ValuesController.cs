@@ -16,9 +16,19 @@ namespace LapTrinhWeb_ThuyetTrinh.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public object Get(int id)
         {
-            return "value";
+
+            return new
+            {
+                data = new
+                {
+                    id = id,
+                    name = "Example",
+                    date = DateTime.Now,
+                },
+                error = false,
+            };
         }
 
         // POST api/values

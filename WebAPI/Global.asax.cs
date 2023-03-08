@@ -18,6 +18,21 @@ namespace LapTrinhWeb_ThuyetTrinh
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            var json = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
+            json.SerializerSettings.PreserveReferencesHandling =
+                Newtonsoft.Json.PreserveReferencesHandling.All;
+        }
+
+        void ConfigureApi(HttpConfiguration config)
+        {
+            //// Remove the JSON formatter
+            //config.Formatters.Remove(config.Formatters.JsonFormatter);
+
+            // or
+
+            // Remove the XML formatter
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
         }
     }
 }

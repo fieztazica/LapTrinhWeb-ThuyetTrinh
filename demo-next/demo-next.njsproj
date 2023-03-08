@@ -26,10 +26,10 @@
     <Content Include=".eslintrc.json" />
     <None Include="jsconfig.json" />
     <Content Include="package.json" />
-    <Content Include="pages\abc.js">
+    <Content Include="pages\csr.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="pages\test.js">
+    <Content Include="pages\ssr.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="README.md" />
